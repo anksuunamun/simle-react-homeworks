@@ -1,7 +1,36 @@
 .someClass {
-
+    height: 20px;
 }
 
 .error {
+    display: block;
     border: 1px solid red;
+}
+
+.greetWrapper input {
+    height: 20px;
+}
+
+.greetWrapper {
+    margin-left: 20px;
+    margin-top: 15px;
+    font-family: Calibri, sans-serif;
+    font-size: 1.2em;
+}
+
+.greetWrapper button {
+    margin-left: 10px;
+    height: 35px;
+    width: 50px;
+    font-weight: bold;
+    background-color: greenyellow;
+    border-color: greenyellow;
+    border-radius: 0.25rem;
+    outline-color: greenyellow;
+}
+
+.greetWrapper span:last-child {
+    color: darkgreen;
+    font-size: 1.4em;
+    margin-left: 10px;
 }
