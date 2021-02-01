@@ -1,5 +1,5 @@
-import React, {ChangeEvent, DetailedHTMLProps, InputHTMLAttributes, KeyboardEvent} from "react";
-import s from "./SuperInputText.module.css";
+import React, {ChangeEvent, DetailedHTMLProps, InputHTMLAttributes, KeyboardEvent} from 'react';
+import s from './SuperInputText.module.css';
 
 // тип пропсов обычного инпута
 type DefaultInputPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>;
@@ -33,21 +33,22 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
     const onKeyPressCallback = (e: KeyboardEvent<HTMLInputElement>) => {
         onKeyPress && onKeyPress(e);
 
-        e.key === "Enter" // если нажата кнопка Enter
+        e.key === 'Enter' // если нажата кнопка Enter
         && onEnter // и есть пропс onEnter
         && onEnter(); // то вызвать его
     }
 
-    const finalSpanClassName = `${s.error} ${spanClassName ? spanClassName : ""}`;
-    const finalInputClassName = `${s.errorInput} ${className}`; // need to fix with (?:) and s.superInput
+    const finalSpanClassName = `${s.error} ${spanClassName ? spanClassName : ''}`;
+    const finalInputClassName = `${error && s.errorInput} ${className ? className : s.superInput}`; // need to fix with (?:) and s.superInput
 
     return (
         <>
             <input
-                type={"text"}
+                type={'text'}
                 onChange={onChangeCallback}
                 onKeyPress={onKeyPressCallback}
                 className={finalInputClassName}
+                placeholder={'Write something...'}
 
                 {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
             />

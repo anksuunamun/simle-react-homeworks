@@ -30,6 +30,7 @@ function HW4() {
                     onChangeText={setText}
                     onEnter={showAlert}
                     error={error}
+                    spanClassName={s.spanStyle}
                     // className={s.blue} // проверьте, рабоет ли смешивание классов
                 />
 

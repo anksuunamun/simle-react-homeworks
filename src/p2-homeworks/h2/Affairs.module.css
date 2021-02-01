@@ -1,3 +1,11 @@
-.someClass {
+.someClass button {
 
+    margin-left: 10px;
+
+}
+
+.someClass {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
 }
