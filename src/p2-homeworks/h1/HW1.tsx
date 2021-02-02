@@ -1,6 +1,8 @@
 import React from 'react';
 import Message, {MessagePropsType} from './Message';
 import AlternativeMessage from './AlternativeMessage';
+import s from './HW1.module.css';
+
 
 const messageData: MessagePropsType = {
     avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
@@ -21,20 +23,24 @@ function HW1() {
             <hr/>
             homeworks 1
 
-            should work (должно работать)
+            {/*should work (должно работать)*/}
 
-            <Message
-                avatar={messageData.avatar}
-                name={messageData.name}
-                message={messageData.message}
-                time={messageData.time}
-            />
-            <AlternativeMessage
-                avatar={alternativeMessageData.avatar}
-                name={alternativeMessageData.name}
-                message={alternativeMessageData.message}
-                time={alternativeMessageData.time}
-            />
+            <div className={s.messagesWrapper}>
+                <Message
+                    avatar={messageData.avatar}
+                    name={messageData.name}
+                    message={messageData.message}
+                    time={messageData.time}
+                />
+                <AlternativeMessage
+                    avatar={alternativeMessageData.avatar}
+                    name={alternativeMessageData.name}
+                    message={alternativeMessageData.message}
+                    time={alternativeMessageData.time}
+                />
+            </div>
+
+
         </div>
     );
 }

@@ -2,10 +2,23 @@
     margin-left: 20px;
     background-color: #adff2f;
     max-width: 250px;
-    padding: 5px 10px;
+    padding: 25px 10px;
     display: flex;
     align-items: flex-end;
+    width: 250px;
 }
+
+/*.message {*/
+/*    background-color: #252320;*/
+/*    height: 50px;*/
+/*    width: 180px;*/
+/*    margin-left: 10px;*/
+/*    border-radius: 6px;*/
+/*    display: flex;*/
+/*    padding: 5px 10px;*/
+/*    flex-direction: column;*/
+/*    position: absolute;*/
+/*}*/
 
 .message {
     background-color: #252320;
@@ -14,35 +27,61 @@
     margin-left: 10px;
     border-radius: 6px;
     display: flex;
+    flex-direction: row;
     padding: 5px 10px;
-    flex-direction: column;
 
-
-}
-.speech:before {
-    content: ' ';
-    position: absolute;
-    width: 0;
-    height: 0;
-    left: 70px;
-    top: 113px;
-    border: 6px solid;
-    border-color: transparent #252320 #252320 transparent;
-    border-radius: 4px;
-
-}
-
-.messageWrapper img {
-    max-width: 35px;
-    border-radius: 100%;
 }
 
 .message .time {
     color: #6a6255;
-    position: relative;
-    left: 140px;
-    top: -12px;
+    padding-left: 40px;
+    padding-top: 25px;
 }
+.message .name {
+    width: 90px;
+}
+
+.firstCol {
+
+}
+
+.speech:before {
+    width: 0;
+    height: 0;
+    content: ' ';
+    border: 6px solid;
+    border-color: transparent #252320 #252320 transparent;
+    border-radius: 4px;
+    position: relative;
+    top: 20px;
+    left: -20px;
+}
+
+/*.speech:before {*/
+/*    content: ' ';*/
+/*    position: relative;*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*    left: 70px;*/
+/*    top: 113px;*/
+/*    border: 6px solid;*/
+/*    border-color: transparent #252320 #252320 transparent;*/
+/*    border-radius: 4px;*/
+
+/*}*/
+
+.messageWrapper img {
+    max-width: 35px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+/*.message .time {*/
+/*    color: #6a6255;*/
+/*    position: relative;*/
+/*    left: 140px;*/
+/*    top: -12px;*/
+/*}*/
 
 .message .text {
     color: white;

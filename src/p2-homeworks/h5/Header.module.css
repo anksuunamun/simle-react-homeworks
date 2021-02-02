@@ -1,0 +1,55 @@
+.wrapper {
+    display: flex;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.activeBurger {
+    transition: 0.8s;
+}
+
+.hidden {
+    transform: translateX(-120%);
+    transition: 0.8s;
+}
+
+.hiddenMenuLogo {
+    transform: translateX(-1350%);
+    transition: 0.8s;
+}
+
+.activeMenuLogo {
+    transform: translateX(55%);
+    transition: 0.8s;
+}
+
+.navbar li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #555;
+    color: white;
+}
+
+.navbar li a:hover {
+    background-color: #4CAF50;
+}
+
+.active {
+    background-color: #4CAF50 !important;
+}
+
+.img {
+    width: 30px;
+}
+
+.img:hover {
+    cursor: pointer;
+    opacity: 50%;
+
+}
