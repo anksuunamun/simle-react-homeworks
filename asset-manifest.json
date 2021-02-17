@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/simple-react-homeworks/static/css/main.32b9c5a1.chunk.css",
-    "main.js": "/simple-react-homeworks/static/js/main.9d320eae.chunk.js",
-    "main.js.map": "/simple-react-homeworks/static/js/main.9d320eae.chunk.js.map",
+    "main.css": "/simple-react-homeworks/static/css/main.04e41ab9.chunk.css",
+    "main.js": "/simple-react-homeworks/static/js/main.78315d4b.chunk.js",
+    "main.js.map": "/simple-react-homeworks/static/js/main.78315d4b.chunk.js.map",
     "runtime-main.js": "/simple-react-homeworks/static/js/runtime-main.f59815ab.js",
     "runtime-main.js.map": "/simple-react-homeworks/static/js/runtime-main.f59815ab.js.map",
-    "static/js/2.298bbe57.chunk.js": "/simple-react-homeworks/static/js/2.298bbe57.chunk.js",
-    "static/js/2.298bbe57.chunk.js.map": "/simple-react-homeworks/static/js/2.298bbe57.chunk.js.map",
+    "static/js/2.79a0996f.chunk.js": "/simple-react-homeworks/static/js/2.79a0996f.chunk.js",
+    "static/js/2.79a0996f.chunk.js.map": "/simple-react-homeworks/static/js/2.79a0996f.chunk.js.map",
     "index.html": "/simple-react-homeworks/index.html",
-    "precache-manifest.87f01f5b857ba968d2890bfb5630ff79.js": "/simple-react-homeworks/precache-manifest.87f01f5b857ba968d2890bfb5630ff79.js",
+    "precache-manifest.fb082382372c8e6a4525448294f2dc08.js": "/simple-react-homeworks/precache-manifest.fb082382372c8e6a4525448294f2dc08.js",
     "service-worker.js": "/simple-react-homeworks/service-worker.js",
-    "static/css/main.32b9c5a1.chunk.css.map": "/simple-react-homeworks/static/css/main.32b9c5a1.chunk.css.map",
-    "static/js/2.298bbe57.chunk.js.LICENSE.txt": "/simple-react-homeworks/static/js/2.298bbe57.chunk.js.LICENSE.txt",
+    "static/css/main.04e41ab9.chunk.css.map": "/simple-react-homeworks/static/css/main.04e41ab9.chunk.css.map",
+    "static/js/2.79a0996f.chunk.js.LICENSE.txt": "/simple-react-homeworks/static/js/2.79a0996f.chunk.js.LICENSE.txt",
     "static/media/SuperCheckbox.module.css": "/simple-react-homeworks/static/media/checkmark.207f5873.svg",
     "static/media/menu.svg": "/simple-react-homeworks/static/media/menu.2ff767d1.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f59815ab.js",
-    "static/js/2.298bbe57.chunk.js",
-    "static/css/main.32b9c5a1.chunk.css",
-    "static/js/main.9d320eae.chunk.js"
+    "static/js/2.79a0996f.chunk.js",
+    "static/css/main.04e41ab9.chunk.css",
+    "static/js/main.78315d4b.chunk.js"
   ]
 }
