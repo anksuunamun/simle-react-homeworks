@@ -1,4 +1,4 @@
-import React, {SelectHTMLAttributes, DetailedHTMLProps, ChangeEvent, useState} from 'react';
+import React, {SelectHTMLAttributes, DetailedHTMLProps, ChangeEvent} from 'react';
 import {v1} from 'uuid';
 import styles from './SuperSelect.module.css';
 
