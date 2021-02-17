@@ -55,7 +55,7 @@ const AlternativeSuperSelect: React.FC<AlternativeSuperSelectPropsType> = (
                 toggleActive(false);
             }
             return (
-                <div className={styles.option} key={v1()}
+                <div className={`${styles.option} ${option === localValue ? styles.activeItem : ''}`} key={v1()}
                      onClick={onClickHandler}>
                     <input type="radio"
                            className={styles.radio}
@@ -72,19 +72,17 @@ const AlternativeSuperSelect: React.FC<AlternativeSuperSelectPropsType> = (
 
 
     return (
-        <div className={styles.container}>
-            <div className={styles.selectBox}
-                 onKeyUp={onKeyUpHandler}
-                 tabIndex={0}
-                 onBlur={onBlurHandler}>
-                <div className={`${styles.optionsContainer} ${active ? styles.active : ''}`}>
-                    {mappedOptions}
-                </div>
+        <div className={styles.selectBox}
+             onKeyUp={onKeyUpHandler}
+             tabIndex={0}
+             onBlur={onBlurHandler}>
+            <div className={`${styles.optionsContainer} ${active ? styles.active : ''}`}>
+                {mappedOptions}
+            </div>
 
-                <div className={styles.selected}
-                     onClick={onSelectClick}>
-                    {localValue}
-                </div>
+            <div className={styles.selected}
+                 onClick={onSelectClick}>
+                {localValue}
             </div>
         </div>
     )

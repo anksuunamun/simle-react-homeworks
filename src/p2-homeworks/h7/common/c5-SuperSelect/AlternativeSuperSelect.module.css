@@ -65,7 +65,7 @@
     cursor: pointer;
 }
 
-.selectBox .option:hover {
+.selectBox .option:hover, .selectBox .option.activeItem {
     background: #414b57;
 }
 
