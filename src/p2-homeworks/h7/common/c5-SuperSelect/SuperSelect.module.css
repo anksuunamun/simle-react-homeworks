@@ -1,0 +1,13 @@
+.select {
+    min-width: 100px;
+    min-height: 25px;
+}
+
+.option {
+
+}
+
+.select:hover {
+    cursor: pointer;
+}
+

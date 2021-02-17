@@ -1,0 +1,50 @@
+.radioInput {
+    display: none;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.fakeSpan {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border: 1px solid lightgray;
+    position: relative;
+    margin-top: 15px;
+    border-radius: 100%;
+}
+.fakeSpan:hover {
+    cursor: pointer;
+}
+
+.fakeSpan ~ span {
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-left: 4px;
+}
+
+.fakeSpan::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #4CAF50;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .2s;
+    opacity: 0;
+    border-radius: 100%;
+}
+
+.radioInput:checked + .fakeSpan::before {
+    opacity: 1;
+}
