@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/simple-react-homeworks/static/css/main.e588dc74.chunk.css",
-    "main.js": "/simple-react-homeworks/static/js/main.05ef7b11.chunk.js",
-    "main.js.map": "/simple-react-homeworks/static/js/main.05ef7b11.chunk.js.map",
+    "main.css": "/simple-react-homeworks/static/css/main.68a41e2e.chunk.css",
+    "main.js": "/simple-react-homeworks/static/js/main.eb427207.chunk.js",
+    "main.js.map": "/simple-react-homeworks/static/js/main.eb427207.chunk.js.map",
     "runtime-main.js": "/simple-react-homeworks/static/js/runtime-main.f59815ab.js",
     "runtime-main.js.map": "/simple-react-homeworks/static/js/runtime-main.f59815ab.js.map",
     "static/js/2.840a493d.chunk.js": "/simple-react-homeworks/static/js/2.840a493d.chunk.js",
     "static/js/2.840a493d.chunk.js.map": "/simple-react-homeworks/static/js/2.840a493d.chunk.js.map",
     "index.html": "/simple-react-homeworks/index.html",
-    "precache-manifest.d9c3afd6c4c2c17c02f881c36b738e8f.js": "/simple-react-homeworks/precache-manifest.d9c3afd6c4c2c17c02f881c36b738e8f.js",
+    "precache-manifest.4a599bf5353504ce9082ef5e0546225b.js": "/simple-react-homeworks/precache-manifest.4a599bf5353504ce9082ef5e0546225b.js",
     "service-worker.js": "/simple-react-homeworks/service-worker.js",
-    "static/css/main.e588dc74.chunk.css.map": "/simple-react-homeworks/static/css/main.e588dc74.chunk.css.map",
+    "static/css/main.68a41e2e.chunk.css.map": "/simple-react-homeworks/static/css/main.68a41e2e.chunk.css.map",
     "static/js/2.840a493d.chunk.js.LICENSE.txt": "/simple-react-homeworks/static/js/2.840a493d.chunk.js.LICENSE.txt",
     "static/media/AlternativeSuperSelect.module.css": "/simple-react-homeworks/static/media/arrow-down.766879f4.svg",
     "static/media/SuperCheckbox.module.css": "/simple-react-homeworks/static/media/checkmark.207f5873.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.f59815ab.js",
     "static/js/2.840a493d.chunk.js",
-    "static/css/main.e588dc74.chunk.css",
-    "static/js/main.05ef7b11.chunk.js"
+    "static/css/main.68a41e2e.chunk.css",
+    "static/js/main.eb427207.chunk.js"
   ]
 }
