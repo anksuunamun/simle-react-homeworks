@@ -4,7 +4,7 @@ import styles from './Clock.module.css';
 
 function Clock() {
     const [timerId, setTimerId] = useState<number>(0);
-    const [date, setDate] = useState<Date>(new Date);
+    const [date, setDate] = useState<Date>(new Date());
     const [show, setShow] = useState<boolean>(false);
 
     const stop = () => {
@@ -16,7 +16,7 @@ function Clock() {
         //Вызов setTimeout возвращает «идентификатор таймера» timerId, который можно использовать для отмены дальнейшего выполнения.
         const id: number = window.setInterval(() => {
             // setDate
-            setDate(new Date);
+            setDate(new Date());
         }, 1000);
         setTimerId(id);
     }
