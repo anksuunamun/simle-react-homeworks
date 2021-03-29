@@ -9,7 +9,7 @@ function Clock() {
 
     const stop = () => {
         // stop
-        clearTimeout(timerId);
+        clearInterval(timerId);
     }
     const start = () => {
         stop();
