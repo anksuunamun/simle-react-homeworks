@@ -1,5 +1,5 @@
 import React, {ChangeEvent, DetailedHTMLProps, InputHTMLAttributes} from 'react';
-import s from './SuperRange.module.css';
+// import s from './SuperRange.module.css';
 import Typography from '@material-ui/core/Typography';
 import Slider from '@material-ui/core/Slider';
 
@@ -32,7 +32,7 @@ const SuperRange: React.FC<SuperRangePropsType> = (
         onChangeRange(newValue as number)
     };
 
-    const finalRangeClassName = `${s.range} ${className ? className : ''}`;
+    // const finalRangeClassName = `${s.range} ${className ? className : ''}`;
 
     return (
         <>

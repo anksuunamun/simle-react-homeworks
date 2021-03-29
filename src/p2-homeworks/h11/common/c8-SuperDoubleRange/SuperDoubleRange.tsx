@@ -1,5 +1,4 @@
-import React, {ChangeEvent, useEffect} from 'react';
-import {makeStyles} from '@material-ui/core/styles';
+import React, {ChangeEvent} from 'react';
 import Typography from '@material-ui/core/Typography';
 import Slider from '@material-ui/core/Slider';
 
