@@ -21,3 +21,27 @@
 .some-text {
     color: darkslateblue;
 }
+
+.yellow {
+    background-color: lightgoldenrodyellow;
+}
+
+.yellow-text {
+    color: gray;
+}
+
+.darkBlue {
+    background-color: #152238;
+}
+
+.darkBlue-text {
+    color: white;
+}
+
+.standard {
+    background-color: #f2f2f2;
+}
+
+.standard-text {
+    color: black;
+}
