@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b18f4f6d98e1d0cf305f88b57ecb8224",
+    "revision": "cbc774adaf8ef6e5cab7056c4242f421",
     "url": "/simple-react-homeworks/index.html"
   },
   {
-    "revision": "6d7427954dc15138d971",
+    "revision": "065edb9dc4996a54be6e",
     "url": "/simple-react-homeworks/static/css/main.c901712d.chunk.css"
   },
   {
-    "revision": "a4479fb6d0a952a7acc8",
-    "url": "/simple-react-homeworks/static/js/2.607aecaf.chunk.js"
+    "revision": "1624c45b1a43dabe24f4",
+    "url": "/simple-react-homeworks/static/js/2.a74053ef.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/simple-react-homeworks/static/js/2.607aecaf.chunk.js.LICENSE.txt"
+    "url": "/simple-react-homeworks/static/js/2.a74053ef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6d7427954dc15138d971",
-    "url": "/simple-react-homeworks/static/js/main.7fc2097e.chunk.js"
+    "revision": "065edb9dc4996a54be6e",
+    "url": "/simple-react-homeworks/static/js/main.f522eb8c.chunk.js"
   },
   {
     "revision": "af4ec8013c5fe87b14da",
