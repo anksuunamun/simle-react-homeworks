@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import s from './HW12.module.css';
 import {useDispatch, useSelector} from 'react-redux';
 import {AppStoreType} from '../h10/bll/store';

@@ -32,8 +32,7 @@ export const homeWorkReducer = (state: InitialPeopleType, action: ActionType): I
             return state
         }
         case 'check': {
-            let localState = [...state];
-            return localState.filter((human: HumanType) => human.age > action.payload);
+            return state.filter((human: HumanType) => human.age > action.payload);
         }
         default:
             return state

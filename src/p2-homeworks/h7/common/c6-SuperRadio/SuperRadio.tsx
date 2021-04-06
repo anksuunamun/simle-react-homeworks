@@ -1,4 +1,4 @@
-import React, {ChangeEvent, InputHTMLAttributes, DetailedHTMLProps, useEffect} from 'react';
+import React, {ChangeEvent, InputHTMLAttributes, DetailedHTMLProps} from 'react';
 import s from './SuperRadio.module.css';
 
 type DefaultRadioPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
